@@ -11,13 +11,13 @@ with open("README.md", "r") as fs:
 __author__ = "David Barroso <dbarrosop@dravetech.com>"
 
 setup(
-    name="napalm",
+    name="opti-napalm",
     version="4.0.0",
     packages=find_packages(exclude=("test*",)),
     test_suite="test_base",
     author="David Barroso, Kirk Byers, Mircea Ulinic",
-    author_email="dbarrosop@dravetech.com, ping@mirceaulinic.net, ktbyers@twb-tech.com",
-    description="Network Automation and Programmability Abstraction Layer with Multivendor support",
+    author_email="dbarrosop@dravetech.com, ping@mirceaulinic.net, ktbyers@twb-tech.com, ams_pypi@optiver.com",
+    description="Optiver's fork of NAPALM",
     license="Apache 2.0",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -33,7 +33,7 @@ setup(
         "Operating System :: POSIX :: Linux",
         "Operating System :: MacOS",
     ],
-    url="https://github.com/napalm-automation/napalm",
+    url="https://github.com/optiver/opti-napalm",
     include_package_data=True,
     install_requires=reqs,
     entry_points={
