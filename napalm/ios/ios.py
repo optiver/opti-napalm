@@ -45,7 +45,6 @@ from napalm.base.helpers import (
     generate_regex_or,
     sanitize_configs,
 )
-from netaddr.core import AddrFormatError
 from napalm.base.netmiko_helpers import netmiko_args
 
 # Easier to store these as constants
