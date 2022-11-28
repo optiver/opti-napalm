@@ -12,7 +12,7 @@ __author__ = "David Barroso <dbarrosop@dravetech.com>"
 
 setup(
     name="opti-napalm",
-    version="4.0.0.fixioslldpdiscovery",
+    version="4.0.1",
     packages=find_packages(exclude=("test*",)),
     test_suite="test_base",
     author="David Barroso, Kirk Byers, Mircea Ulinic",
