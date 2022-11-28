@@ -991,7 +991,9 @@ class IOSDriver(NetworkDriver):
                 # are mac address. See IEEE 802.1AB-2005 and rfc2922, specifically PtopoChassisId
                 if not hostname:
                     try:
-                        hostname = napalm.base.helpers.mac(lldp_entry["remote_chassis_id"])  
+                        hostname = napalm.base.helpers.mac(
+                            lldp_entry["remote_chassis_id"]
+                        )
                     except AddrFormatError:
                         hostname = lldp_entry["remote_chassis_id"]
 
