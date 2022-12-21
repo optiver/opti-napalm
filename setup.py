@@ -21,6 +21,7 @@ setup(
     license="Apache 2.0",
     long_description=long_description,
     long_description_content_type="text/markdown",
+    provides=["napalm"],
     classifiers=[
         "Topic :: Utilities",
         "License :: OSI Approved :: Apache Software License",
