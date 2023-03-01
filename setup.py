@@ -12,11 +12,16 @@ __author__ = "David Barroso <dbarrosop@dravetech.com>"
 
 setup(
     name="opti-napalm",
-    version="4.0.0",
+    version="4.0.3",
     packages=find_packages(exclude=("test*",)),
     test_suite="test_base",
     author="David Barroso, Kirk Byers, Mircea Ulinic",
-    author_email="dbarrosop@dravetech.com, ping@mirceaulinic.net, ktbyers@twb-tech.com, ams_pypi@optiver.com",
+    author_email=(
+        "dbarrosop@dravetech.com, "
+        "ping@mirceaulinic.net, "
+        "ktbyers@twb-tech.com, "
+        "ams_pypi@optiver.com"
+    ),
     description="Optiver's fork of NAPALM",
     license="Apache 2.0",
     long_description=long_description,
