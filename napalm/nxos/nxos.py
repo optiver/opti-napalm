@@ -1036,6 +1036,7 @@ class NXOSDriver(NXOSDriverBase):
                     interface_details.get("eth_link_flapped", "")
                 ),
                 "speed": interface_speed,
+                "autoneg": interface_details.get("eth_autoneg"),
                 "mtu": interface_mtu,
                 "mac_address": napalm.base.helpers.convert(
                     napalm.base.helpers.mac, mac_address
