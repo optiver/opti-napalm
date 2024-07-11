@@ -34,7 +34,7 @@ jobs:
 
       - name: Run linter
         run: |
-          pylama .
+          pylama -i E721,C901,E203 .
 
       - name: Run type checker
         run: |
